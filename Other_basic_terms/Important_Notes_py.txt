@@ -1,8 +1,17 @@
  
- 1.                            try and except block :
+ 1.                       try and except block :
 
  Both try and except keywords should be at same level as above other wise code will not be excuted it shows the error .Hence there should be well defined str. of code should be there for proper execution . The str. should look like the as above 
  (Well defined str. means --- What spacing should be  given. as shown in .\Basic_of_python\B-pyhton-7.py file  )
 
 
-2.                         
+2.                       use of \\
+If we have a comment or print statement where we use \n or \t or \f or \others and we not want to use their functionality
+but just want to print \n then we can use \\n or \\t or \\f or \\others.
+
+It just escape the \ condition itself by using \\.
+
+3.                 Raw string 
+
+pritn(r"something for print with \n or any other terms ")---- the raw string means it will directly print 
+what inside the "-------this block----" without thinking of \n, \t or any other terms 

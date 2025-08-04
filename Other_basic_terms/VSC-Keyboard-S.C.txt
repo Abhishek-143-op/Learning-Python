@@ -3,3 +3,7 @@
 2. Alt +  left mouse click ---- Multiple cursor in VSC 
 
 3. Alt +  shift + down arrow key ( ↓ ) ---- For copying above line in down .
+
+4. \f in python used for create enter sign in the output ------- REARLY USED.
+
+5. 

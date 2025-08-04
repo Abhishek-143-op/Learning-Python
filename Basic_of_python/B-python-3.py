@@ -51,3 +51,12 @@ for = 100         # Python keyword
 MEMORY TIP JUST IN CASE OF NAMEING INDENTIFERS 
 Letter, Underscore, Digits, OnlY ---------------- LUDO
 """
+
+
+
+
+#DAY 2
+
+a,b,c = 18, "Abhishek" , 6.9 #Multiple input in a single line are possible as shown 
+
+a=b=c="Abhishek"  # Multiple variable with the single input Here string type input 

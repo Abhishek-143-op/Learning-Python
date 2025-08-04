@@ -1,0 +1,5 @@
+1. Alt+z ----- Word wrap 
+
+2. Alt+ left  mouse click ---- Multiple cursor in VSC 
+
+3. 

@@ -47,3 +47,37 @@ print(   type(variable)   )
       |functions                  |  
 
 """
+
+
+
+#day 2:  TYPECASTING WITH EXAM POV
+
+"""
+           📌 Definition (Exam Answer Format):
+Type casting is the process of converting one data type into another using built-in functions like int(), float(), str(), etc.
+
+             🧠 Why is Type Casting Used?
+To perform operations between different data types (like string and integer).
+
+To ensure compatibility in expressions and functions.
+
+📂 Types of Type Casting:
+1. Implicit Type Casting
+✅ Done automatically by Python.
+
+🔹 Example:
+"""
+
+a = 5      # int
+b = 2.0    # float
+c = a + b  # Python converts a to float automatically
+print(c)   # Output: 7.0
+# ➡️ Here, int is implicitly converted to float.
+
+"""
+2. Explicit Type Casting
+✅ Done manually by the programmer using functions.
+"""
+
+#         new_data = desired_type(existing_data)
+

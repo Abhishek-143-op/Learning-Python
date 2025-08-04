@@ -1,4 +1,4 @@
-            #Practice program According to the previous codes 
+            #Question Practice program with  previous codes concepts.
 
 print("\n Q1. --Write a python program to add two numbers.\n")
 

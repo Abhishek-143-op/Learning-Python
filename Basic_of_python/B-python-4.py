@@ -1,4 +1,4 @@
-               #Learning about the operators 
+               #Learning about the operators --ARITHMATIC, CONDITIONAL, RELATIONAL OR COMPARISONAL AND LOGICAL 
 #Arithmatic operators 
 """
 +  Addition operators 

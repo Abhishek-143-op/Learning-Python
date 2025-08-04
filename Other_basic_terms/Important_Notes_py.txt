@@ -1,0 +1,8 @@
+ 
+ 1.                            try and except block :
+
+ Both try and except keywords should be at same level as above other wise code will not be excuted it shows the error .Hence there should be well defined str. of code should be there for proper execution . The str. should look like the as above 
+ (Well defined str. means --- What spacing should be  given. as shown in .\Basic_of_python\B-pyhton-7.py file  )
+
+
+2.                         

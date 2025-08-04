@@ -1,5 +1,5 @@
-1. Alt+z ----- Word wrap 
+1. Alt +  z ----- Word wrap 
 
-2. Alt+ left  mouse click ---- Multiple cursor in VSC 
+2. Alt +  left mouse click ---- Multiple cursor in VSC 
 
-3. 
+3. Alt +  shift + down arrow key ( ↓ ) ---- For copying above line in down .

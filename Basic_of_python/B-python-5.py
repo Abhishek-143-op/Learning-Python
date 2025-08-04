@@ -81,3 +81,14 @@ print(c)   # Output: 7.0
 
 #         new_data = desired_type(existing_data)
 
+m=10        #datatype is int 
+n=float(m)  #datatype is float of m.
+p= str(m)   #dataype is string of m.
+
+"""
+With these above example we able to know that 1 datatype is converted into many 
+Therefore when we can we 1 single data in different types of dataypes like string , 
+float etc. According to the situation.
+
+
+"""

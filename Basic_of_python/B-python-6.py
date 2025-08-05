@@ -3,12 +3,12 @@
             Defination:
     The input funtion is used in python for taking the user input from the keyboard as 
 
-          variable = Datatype(input"Enter your input message here like Enter the no. ") 
+-------- --variable = Datatype(input"Enter your input message here like Enter the no. ")----------------------------- 
           |____________________________________________________________________________|
                                                 |       
                                                 |
                                               VIP
-
+---------------------------------------------------------------------------------------------------------------------
 
           If we donot use datatype then by default it takes the input as string as shown in above example
 

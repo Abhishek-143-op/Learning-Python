@@ -87,7 +87,7 @@ p= str(m)   #dataype is string of m.
 
 """
 With these above example we able to know that 1 datatype is converted into many 
-Therefore when we can we 1 single data in different types of dataypes like string , 
+Therefore when we can use 1 single data in different types of dataypes like string , 
 float etc. According to the situation.
 
 

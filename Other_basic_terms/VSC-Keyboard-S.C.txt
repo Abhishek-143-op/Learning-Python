@@ -6,4 +6,4 @@
 
 4. \f in python used for create enter sign in the output ------- REARLY USED.
 
-5. 
+5. Alt +  ↓ or up arrow key ------------- Helps to move the line up or down 

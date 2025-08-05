@@ -15,3 +15,6 @@ It just escape the \ condition itself by using \\.
 
 pritn(r"something for print with \n or any other terms ")---- the raw string means it will directly print 
 what inside the "-------this block----" without thinking of \n, \t or any other terms 
+
+4.                       REPL
+                Read evaluate print loop 

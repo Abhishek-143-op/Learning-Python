@@ -7,3 +7,5 @@
 4. \f in python used for create enter sign in the output ------- REARLY USED.
 
 5. Alt +  ↓ or up arrow key ------------- Helps to move the line up or down 
+
+6. Ctrl + Alt + down arrow key ( ↓ )------ multiply the cursor down 

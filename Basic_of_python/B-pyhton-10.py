@@ -1,12 +1,12 @@
   #-----------------Practice question on the previous concepts -------------------------------------------------------------------
 
-print("Write a python program to display a user entered name followed by Good Afternoon using input () function.\n")
+print("Q1.  Write a python program to display a user entered name followed by Good Afternoon using input () function.\n")
 
 name=str(input("Enter your Name :"))
 print("Good afternoon , ",name)
 
 print(""" \n
-       Write a program to fill in a letter template given below with name and date. 
+      Q2.   Write a program to fill in a letter template given below with name and date. 
                           letter = '''
                             Dear <|Name|>,
                             You are selected!
@@ -124,3 +124,22 @@ print("Saving file as:", filename)
 
 #OUTPUT: Saving file as: backup_20250806_235102.txt
 
+print("\nValid Function Calls with Correct Syntax")
+print("""
+| Code                    | ✅ Valid? | Output           | Explanation                 |
+| ----------------------- | ---------  | ----------------- | --------------------------|
+| `datetime.now()`        | ✅ Yes    | full date + time | Most commonly used          |
+| `datetime.today()`      | ✅ Yes    | full date + time | Same as `now()`             |
+| `datetime.now().date()` | ✅ Yes    | only date        | Extracts date part          |
+| `datetime.now().time()` | ✅ Yes    | only time        | Extracts time part          |
+| `date.today()`          | ✅ Yes    | only date        | Use when you only need date |
+| `datetime.now().year`   | ✅ Yes    | just year        | Example: `2025`             |
+| `datetime.now().month`  | ✅ Yes    | just month       | Example: `08`               |
+| `datetime.now().day`    | ✅ Yes    | just day         | Example: `06`               |
+| `datetime.now().hour`   | ✅ Yes    | just hour        | Example: `22`               |
+| `datetime.now().minute` | ✅ Yes    | just minute      | Example: `45`               |
+| `datetime.now().second` | ✅ Yes    | just seconds     | Example: `30`               |
+
+      
+"""
+)

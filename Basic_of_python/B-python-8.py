@@ -81,7 +81,7 @@ print(s[10:])     # Output: ''---- nothing or empty string will be printed witho
 print(s[2:100])   # Output: 'thon'------- no error start from the index 2 then go the last index if further excedes than it print empty string 
 
 
-#---------Note 2. : If we are Using the step in the strign slicling then that concept is also known as the slicing with skip value
+#---------Note 2. : If we are Using the step in the string slicling then that concept is also known as the slicing with skip value
                                                                                                         #  |_____________________|                           
                                                                                                                #      |                
                                                                                                                # Important

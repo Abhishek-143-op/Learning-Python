@@ -27,7 +27,7 @@ except ValueError :
 #---------------------IMPORTANT INFORMATION ABOUT NEW KEYWORDS -------------------------------
 """
 try :
-    ___something(code)____  -------If there is some code where might unexpected error can occur then this we use try block where if in case we donot get error then the code under the try will execute and if error is there then code under except will be executed 
+    ___something(code)____  -------If there is some code where might unexpected error can occur then there we use try block where if in case we donot get error then the code under the try will execute and if error is there then code under except will be executed .
 
 
 except ValueError:

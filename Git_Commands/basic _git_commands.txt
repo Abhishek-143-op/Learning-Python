@@ -1,0 +1,53 @@
+1. git add .                  --- Add all files to staggin area for tracking by git. 
+        |--git add <files >   --- Add the specific file to stagging area for tracking.
+3. git commit -m "Message"    --- Commit the changes to files presents in the staging Area.
+4. git status                 --- Command will check the status of files.
+                                        |
+                                        |-U (untracked)=Shows the untracked files 
+                                        |-M (modified) =Show modified files 
+                                        |-[green M] or A (stagged)  = Show files ready for commit or say in the stagging Area.
+                                        |-(unmodified) = Shows umodified files 
+5. git clone <git repo URL>  --- Clone the git repo from github to the Local device (VSC).
+6. git reset                 --- Reset all the Staging Area 
+        |--git reset <file>  --- Reset the file from the Staging Area
+
+
+7. git diff                  --- Shows all the changes by:
+       |                                                 (a) comparing staging area with working directory 
+       |                                                 (b) If Staging Area is empty then git compare working directory with last commit and shows the untracked changes.
+       |       NOTE: If no changes are there in working directory then there is no output of command git diff
+       |
+       |
+       Varients of git diff:
+                   (a) git diff:
+                         -Shows changes between working directory and staging area.
+                         -Use when you want to see what you have changed but not yet staged.
+                        
+                   (b) git diff --cached (or git diff --staged): 
+                         -Shows changes between staging area and last commit.
+                         -Use when you want to see what is staged but not yet committed.
+        NOTE : If no last commit is there then it shows every file or line as newely added or it will compare last empty commit with working directory                  
+                        
+                   (c) git diff <commit>: 
+                         -Compares working directory and a specific commit.
+
+                   (d) git diff <commit1> <commit2>:
+                         -Compares two commits with each other.
+                        
+                   (e) git diff --name-only :
+                         -Shows only the file names that have changed, not the actual content differences.
+                        
+                   (f) git diff --name-status:
+                         -Shows file names and status (A = Added, M = Modified, D = Deleted).
+                        
+                   (g) git diff --stat :
+                         -Shows a summary of changes (files changed, lines added/removed).
+                        
+                   (h) git diff <file>:
+                         -Shows changes only for a specific file.
+                        
+                   (i) git diff HEAD:
+                         -Compares working directory with the last commit.
+                        
+                   (j) git diff <branch1> <branch2> 
+                         -Shows changes between two branches.

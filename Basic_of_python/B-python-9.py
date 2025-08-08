@@ -24,8 +24,17 @@ print(
  |----------------------------------------------------------------------------------------------------------------|
 
  \n
-"""
+""")
+print
+(
+"HeLLo".lower(),                           #    → 'hello'
+"hi".upper(),                               #    → 'HI'
+"python".capitalize(),                      #    → 'Python' 
+"hello world".title(),                      #    → 'Hello World'
+"Hi Abhi".swapcase(),                       #    → 'hI ABHI'
 )
+
+
 
 print(""" \n
                             Search & Check STRING FUNCTIONS

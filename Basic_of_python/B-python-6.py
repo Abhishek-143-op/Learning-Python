@@ -27,12 +27,33 @@ else:
   
   # OTHERE WAY OF INPUTING THE VARIABLE IN THE STRING :
 
+
+
+
+
+
+#f-string --- means formating - sting 
+
+
+
+
+
+
 print(f"Hello, dear ,{name}")
 """                 |----|
                      |
                      here we directly use the variable in the string   
 
           """
+
+
+
+
+
+#r-string--- it means raw string 
+
+
+
 
 print(
 r"""NOTE : 

@@ -32,7 +32,7 @@ else:
                              text = "Hi  there"
                                      01234567 
                         H i _ _ t h e r e
-                            ↑↑  
+                            ↑  
                             double space starts at index 2.
 
 2. Multiple double spaces in the string then Why code print only 1 position of double space ?

@@ -34,7 +34,7 @@ print
 "Hi Abhi".swapcase(),                       #    → 'hI ABHI'
 )
 
-
+#sub means substring.
 
 print(""" \n
                             Search & Check STRING FUNCTIONS
@@ -65,8 +65,8 @@ print ("""\n
 | Method              | Description             | Example                                           |
 | ------------------- | ----------------------- | ------------------------------------------------- |
 |  replace(old, new)  | Replaces substring      |  "goodbye".replace("good", "hello") → 'hellobye'  |
-|  split(sep)         | Splits string into list |  "a,b,c".split(',') → ['a', 'b', 'c']             |
-|  join(list)         | Joins list into string  |  ",".join(['a', 'b']) → 'a,b'                     |
+|  split(separator)   | Splits string into list |  "a,b,c".split(',') → ['a', 'b', 'c']             |
+| saparator.join(list)| Joins list into string  |  ",".join(['a', 'b']) → 'a,b'                     |
 
  
 \n

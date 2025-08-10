@@ -34,11 +34,6 @@ else:
 
 #f-string --- means formating - sting 
 
-
-
-
-
-
 print(f"Hello, dear ,{name}")
 """                 |----|
                      |
@@ -51,9 +46,6 @@ print(f"Hello, dear ,{name}")
 
 
 #r-string--- it means raw string 
-
-
-
 
 print(
 r"""NOTE : 

@@ -51,3 +51,26 @@
                         
                    (j) git diff <branch1> <branch2> 
                          -Shows changes between two branches.
+8. git restore <file>    ---- Restores the file to the last commit 
+              |                                                   |
+              |-------Varients of git restore <file>--------------|
+                           |
+                           |----(a). git restore . : Restore all the files to last commit 
+                           |----(b). git restore --staged <file> : Restore file to last commit in stagged area 
+                           |                                                           OR
+                           |                                       Reset the staging area of file so that it restore to last commit.
+                           |----(c). git restore --staged . : Restore file all files in stagged area {same as git restore --staged <file>}
+                           |                                  but it done to all files 
+                           |----(d). git restore --source=<commit_hash> <file> : Restore file to specific commit    
+                           |----(e). git restore --source=other-branch <file> : Restore file from another brach without switching to it .
+9. git reset <file>: It reset the file in(only) the staging area to last commit .
+     |
+     |----------------------------Varients of git reset <file>----------------------------------------------
+     |
+     |----(a). git reset : It reset all file (only) in the staging Area.
+***  |----(b). git rm --cached <file> : It remove file from staging Area and tell git to stop Tracking but keeps locally.
+     |----(c). git reset HEAD~1 : If file is Commited but not pushed to github then with this Command we 
+     |                              Can remove remove last commit but keeps changes in working directory.
+     |
+     |
+     |

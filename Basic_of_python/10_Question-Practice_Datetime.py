@@ -15,7 +15,7 @@ print(""" \n
 
       """)
 from datetime import datetime
-print("Dear ",name,"\n \t \t you are selected! \n ","\t \t",datetime.today().date(),datetime.now().time())
+print("Dear ",name,",\n \t \t you are selected! \n ","\t \t",datetime.now().date(),datetime.now().time())
 
 
 #----------------------------------------------cONCEPT FROM DATE AND TIME ---------------------------------------------------
@@ -50,7 +50,13 @@ print("Second:", now.second)
 
 print("Concept of formating the date :")
 print("""
-strftime() = string format time- --> It lets you customize how the date/time is printed.
+      
+variable.strftime() = string format time- --> It lets you customize how the date/time is printed.
+         |________|
+             |
+        Important with respect to datetime str. or format
+      
+
 """)
 print(now.strftime("%d-%m-%Y %I:%M %p"))
 
@@ -81,7 +87,7 @@ print(now.strftime("Today is %A, %d %B %Y - Time: %I:%M:%S %p"))  # output: Toda
 print(datetime.now().time())   # Output: 22:45:20.501023
 print("""
       Want to Add or Subtract Days?
-            Use timedelta: as shpwn
+            Use timedelta: as shown
       
 """)
 from datetime import datetime, timedelta
@@ -119,7 +125,12 @@ print("PRACTICAL EXAMPLE FOR USING THE DATE AND TIME ")
 from datetime import datetime
 
 now = datetime.now()
-filename = now.strftime("backup_%Y%m%d_%H%M%S.txt")
+filename = now.strftime("backup_%Y%m%d_%H%M%S.txt")#******************************VIP*************
+"""                     |________________________|
+                                    |
+                              Very Important for future.
+
+"""
 print("Saving file as:", filename)
 
 #OUTPUT: Saving file as: backup_20250806_235102.txt

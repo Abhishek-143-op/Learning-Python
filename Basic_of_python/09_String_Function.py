@@ -1,7 +1,13 @@
                #Learning about the string function 
+print(
 """
 String function are function or built in methods used to manuplaite and operate operation of string 
-"""
+
+Strings are ummutable means will we cannot change the elements inside the index 
+                                and 
+Strings functions will create a new string using the previous string but will not modify the previous string
+
+""")
      #           Here's the list of most common used strings 
 print(" 1. len(Variable)--- Used to know the length of string ")
 print(len("Abhi")) #output : 4

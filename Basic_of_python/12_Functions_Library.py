@@ -62,8 +62,8 @@ print(pi,"\nExample for the the calling specific funtion without calling specifi
 print("""
                              Universal Rule:
 
-             -->   thing = container.item(parameters)
-                             ->   Where container = library/module/object,
+             -->   thing = container.item(parameters)      Where,
+                             ->   container = library/module/object,
                              ->   item = function/constant/class,
                              ->   parameters = the data you give it.
       

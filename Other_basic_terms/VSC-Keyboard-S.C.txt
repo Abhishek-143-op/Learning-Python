@@ -9,3 +9,8 @@
 5. Alt +  ↓ or up arrow key ------------- Helps to move the line up or down 
 
 6. Ctrl + Alt + down arrow key ( ↓ )------ multiply the cursor down 
+
+7. select the multiple terms you want to change + Right click on it -- Click on Change the ocrrance 
+    ===  This will select all the similar terms in the code the you can del, rewrite and do Whatever you want.
+                   Or
+            press = Ctrl + F2 = It will select all the selected terms that repeat in code.

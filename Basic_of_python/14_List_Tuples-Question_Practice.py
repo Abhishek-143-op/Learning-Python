@@ -59,12 +59,15 @@ If we want to input as the different datatypes (as per our need we need to defin
 """
 
 Markswithintdatatype = []
+try:
+    marks1=int(input("Enter the marks of studets  1:"))
+    marks2=int(input("Enter the marks of studets  2:"))
+    marks3=int(input("Enter the marks of studets  3:"))
+    marks4=int(input("Enter the marks of studets  4:"))
+    marks5=int(input("Enter the marks of studets  5:"))
+except ValueError:
+    print("Invalid input, Enter the Valid integer value ")
 
-marks1=int(input("Enter the marks of studets  1:"))
-marks2=int(input("Enter the marks of studets  2:"))
-marks3=int(input("Enter the marks of studets  3:"))
-marks4=int(input("Enter the marks of studets  4:"))
-marks5=int(input("Enter the marks of studets  5:"))
 
 Markswithintdatatype.append(marks1)
 Markswithintdatatype.append(marks2)

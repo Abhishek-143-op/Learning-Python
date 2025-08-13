@@ -74,3 +74,29 @@
      |
      |
      |
+
+10. git log : Shows the full history of the commit 
+
+11. git log --oneline -n : Just to view the latest commit made 
+               |              Breakdown :
+               |
+               |                git log → Shows commit history (full details by default).
+               |                
+               |                --oneline → Makes each commit show in one short line:
+               |                
+               |                Commit hash (shortened, e.g., a1b2c3d)
+               |                
+               |                Commit message
+               |                
+               |                -n → (any integer to view last 'n'commits) as Limits the output to just the latest commit.)
+               |
+               |------------(Varients of git log --oneline -n)
+                              |
+                              |
+                              |---(a). git log -n -p : Will show last n commits with their changes made 
+                              |
+                  ******      |---(b). git --oneline --graph --decorate : will show commits in a neat , short graph format. 
+
+13. git show <commit_id> : Shows the details of specific commit.
+
+12. git branch : show the all the branches 

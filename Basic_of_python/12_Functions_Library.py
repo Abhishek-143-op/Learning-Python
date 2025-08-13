@@ -22,9 +22,8 @@ print (""" How to use the Functions :
                      Example: math → mathematical operations;
                      os → operating system tasks;
                      string → text manipulation.
-            
-       
-                        Step 3  Search within the library:(as shown) 
+      
+    *****VIP********        Step 3  Search within the library:(as shown) 
           
                                     ->dir(any_library) : Shows all the library attributes like function , classes, name , variable etc. -----------------only by name.
        

@@ -1,5 +1,8 @@
-print("""a list is an ordered,
-       changeable (mutable) collection of elements 
+print("""
+---------------------------------------------LIST-----------------------------------------------------------------
+      
+      a list is an ordered,
+ changeable (mutable) collection of elements 
       that can store different data types in a single container.\n 
       
       ---->lists starts with the squared brackets [].
@@ -125,11 +128,15 @@ NOTE:
 """
 
 print("""
+      
+-----------------------------------TUPLES-----------------------------------------------------------------
+      
+
       Tuple is an immutable , 
       ordered , 
       collection of the elements 
       
-      ---->Which starts with the parenthesis '()'
+************************---->Which starts with the parenthesis '()'
       ---->Can have the mixed datatypes as lists.
       """)
 

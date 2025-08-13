@@ -100,3 +100,5 @@
 13. git show <commit_id> : Shows the details of specific commit.
 
 12. git branch : show the all the branches 
+
+14. git commit --amend -m "__message here __" : Helps in editing last commit message if not pushed to github.

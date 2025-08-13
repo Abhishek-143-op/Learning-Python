@@ -1,4 +1,5 @@
-print("""a list is an ordered, changeable (mutable) collection of elements 
+print("""a list is an ordered,
+       changeable (mutable) collection of elements 
       that can store different data types in a single container.\n 
       
       ---->lists starts with the squared brackets [].
@@ -24,6 +25,7 @@ print(list1[3:4])
 #Just like the string function there are list functions 
 print("""
 
+      ---------------------------Common Funtions for the Lists---------------------------------------------
 | Function         | Purpose                                              | Example                           | Output                                             |
 | ---------------- | ---------------------------------------------------- | --------------------------------- | -------------------------------------------------  |
 | append(x)        | Add an item to the end                               | fruits.append("orange")`          | ['apple', 'banana', 'orange']`                     |
@@ -107,6 +109,7 @@ print("After clear fruits:", fruits)
 
 """
 NOTE:
+-------------------------------Strings and Lists ---------------------------------------------------
 1.  When we create a string and operate the string funtions on it , it just create a new of string but it donot 
        change the original string .
 
@@ -121,7 +124,10 @@ NOTE:
 2. Avoid using the name of list as 'list' as in python list named class is already there 
 """
 
-print("""Tuple is an immutable , ordered , collection of the elements 
+print("""
+      Tuple is an immutable , 
+      ordered , 
+      collection of the elements 
       
       ---->Which starts with the parenthesis '()'
       ---->Can have the mixed datatypes as lists.
@@ -132,6 +138,8 @@ tuple2= (1,) #Tuple with the 1 elements comma must be there
 tuple3= (1,3,5,7) #Tuple with more than 1 elements 
 
 print("""
+      
+      ----------------Common Functions for Tuples-----------------------------------------
 | **Method / Function** | **Description**                                                            | **Example**              | **Output**           |
 | --------------------- | -------------------------------------------------------------------------- | ------------------------ | -------------------- |
 | `count(x)`            | Returns the number of times `x` appears in the tuple.                      | `(1, 2, 2, 3).count(2)`  | `2`                  |
@@ -152,6 +160,8 @@ print("""
 
 
 print("""
+      
+            --------------Difference between the Lists and Tuples --------------------------------
 | Feature              | **List**                                          | **Tuple**                                                          |
 | -------------------- | ------------------------------------------------- | ------------------------------------------------------------------ |
 | **Syntax**           | `[]` square brackets                              | `()` parentheses                                                   |

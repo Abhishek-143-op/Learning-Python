@@ -194,3 +194,10 @@ my_list.append(4)   # Works
 # Tuple
 my_tuple = (1, 2, 3)
 # my_tuple[0] = 10  # ❌ Error: 'tuple' object does not support item assignment
+
+
+print("""
+      
+NOTE:List inside List is allowed .
+      
+      """)

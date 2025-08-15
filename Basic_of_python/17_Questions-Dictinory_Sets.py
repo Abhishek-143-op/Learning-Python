@@ -68,11 +68,26 @@ User_input.add(I7)
 User_input.add(I8)
 print("All the Unique no. you Entered will be displayed:\n ",User_input)
 
+
+
+
 print("\nQ3. Can we have a set with 18 (int) and '18' (str) as a value in it?\n")
 
+#****************************Wrong answer : Here I done is directory Not set***********************************************
 print("The answer of above question is yes as shown:")
 int_dictinory = {18 : "18"}
 print(int_dictinory)
+#*****************************************************************************************************************
+
+print("The Right Answer is :")
+Int_set= set()
+Int_set.add(18)
+Int_set.add("18")
+print(Int_set)
+
+
+
+
 
 print("Q4. What will be the length of following set s:")
 s = set()

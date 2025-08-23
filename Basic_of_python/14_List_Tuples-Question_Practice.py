@@ -6,19 +6,19 @@ print("""
 
 fruit = []
 
-f1=input("Enter input of fruit in list : ")
+f1=input("Enter  fruit in list : ")
 fruit.append(f1)
-f2=input("Enter input of fruit in list : ")
+f2=input("Enter  fruit in list : ")
 fruit.append(f2)
-f3=input("Enter input of fruit in list : ")
+f3=input("Enter  fruit in list : ")
 fruit.append(f3)
-f4=input("Enter input of fruit in list : ")
+f4=input("Enter  fruit in list : ")
 fruit.append(f4)
-f5=input("Enter input of fruit in list : ")
+f5=input("Enter  fruit in list : ")
 fruit.append(f5)
-f6=input("Enter input of fruit in list : ")
+f6=input("Enter  fruit in list : ")
 fruit.append(f6)
-f7=input("Enter input of fruit in list : ")
+f7=input("Enter  fruit in list : ")
 fruit.append(f7)
 
 print("The list with the user input : ",fruit)
@@ -40,19 +40,19 @@ marks.append(m3)
 marks.append(m4)
 marks.append(m5)
 print(marks)
-print(marks.sort())     #Here marks.sort() will sort the marks list but will return none,
-                        #as it just sorted and donot return to original string  and 
-                        # without returning to original string we just prints Therefore it returns none.
-
-marks.sort()    #Here marks sort will sort the marks and return to original list.
-print(marks)    #                                     but
-                # Here marks datatype is string as we donot assign the datatype with input.
-                # so python interpreture will consider lists elements as string.
-                #             and
-                # When we peform the list function like .sort , .count, .etc
-                # Then it will use funtions as string funtion 
-                # as in the above marks.sort()---- it sorts the marks as the string datatype.
-                                                    # Ascending order 
+print(marks.sort())     #---------|              Here marks.sort() will sort the marks list but will return none,
+                        #         |----          as it just sorted and donot return to original string  and 
+                        #---------|              without returning to original string we just prints Therefore it returns none.
+                       
+marks.sort()            #---------|              Here marks sort will sort the marks and return to original list.
+print(marks)            #         |                                                  but
+                  #  VIP          |              Here marks datatype is string as we donot assign the datatype with input.
+                        #         |              so python interpreture will consider lists elements as string.
+                        #         |                          and
+                        #         |              When we peform the list function like .sort , .count, .etc
+                        #         |              Then it will use funtions as string funtion 
+                        #         |              as in the above marks.sort()---- it sorts the marks as the string datatype.
+                        #---------|                                                  # Ascending order 
 """
 If we want to input as the different datatypes (as per our need we need to define with
  the input function)

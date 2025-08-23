@@ -12,16 +12,15 @@ print("The sum of number 1 + number 2 is :", a+b,"\n")
 print ("\n Q2.  --Write a python program to find remainder when a number is divided by z  \n")
 
 
-try: 
-    num1= float(input("Enter the no.1 you want to dividend : "))                      
-    z= float(input("Enter the no.2 you want to divisor : "))                                                    
 
-    if (z!=0):
+num1= float(input("Enter the no.1 you want to dividend : "))                      
+z= float(input("Enter the no.2 you want to divisor : "))                                                    
+
+if (z!=0):
          print("The remainder after dividing 2 no. is :", num1%z)
-    else:
+else:
         print("The division is not possible as divisor cannot be zero : Invalid choice!!")
-except ValueError :
- print("opps! the divisor cannot be zero...\n ")
+
 
 
 #---------------------IMPORTANT INFORMATION ABOUT NEW KEYWORDS -------------------------------

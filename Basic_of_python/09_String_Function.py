@@ -46,7 +46,7 @@ print(""" \n
                             Search & Check STRING FUNCTIONS
 | Method              | Description                                    | Example                              |
 | ------------------- | ---------------------------------------------- | ------------------------------------ |
-|.find("sub")         | Returns index of first occurrence of substring |   "hello".find("l") → 2              |
+|.find("sub")         | Returns index of first occurrence of substring |   "hello".find("l") → 2   : if not found return -1.           |
 |.index("sub")        | Same as  find() , but gives error if not found |   "hello".index("l") → 2             |
 |.startswith("sub")   | Checks if string starts with a substring       |   "python".startswith("py") → True   |
 |.endswith("sub")     | Checks if string ends with a substring         |   "python".endswith("on") → True     |

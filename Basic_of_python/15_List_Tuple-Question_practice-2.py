@@ -25,7 +25,7 @@ list1.pop(3)
 print(list1,":List after removing index 3 element usign pop function")
 
 
-print("Q.2  Write a program to sum a list with 4 numbers.")
+print("Q.2  Write a program to sum a list with 4 numbers.") # ***************VIP**************************************************8
 list2=[43,64,34,23]
 print(list1+list2,":Here the content of List 1 and List 2 is combined .") #not sum of list 1 and list2 
 print(sum(list1))

@@ -132,7 +132,7 @@ print("""
                  • s.intersection({8,11}): Return a set which contains only item in both sets {8}.
 
 """)
-print(+"""
+print("""
 | Operation                            | Description                                             | Example                         |
 | ------------------------------------ | ------------------------------------------------------- | ------------------------------- |
 | `add(x)`                             | Adds an element to the set                              | `s.add(10)`                     |

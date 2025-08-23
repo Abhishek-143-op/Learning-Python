@@ -31,17 +31,17 @@ print("""
       ---------------------------Common Funtions for the Lists---------------------------------------------
 | Function         | Purpose                                              | Example                           | Output                                             |
 | ---------------- | ---------------------------------------------------- | --------------------------------- | -------------------------------------------------  |
-| append(x)        | Add an item to the end                               | fruits.append("orange")`          | ['apple', 'banana', 'orange']`                     |
-| insert(i, x)     | Insert at a specific index                           | fruits.insert(1, "grape")`        | ['apple', 'grape', 'banana', 'orange']`            |
-| extend(iterable) | Add multiple items from another list/iterable        | fruits.extend(["kiwi", "melon"])` | ['apple', 'banana', 'kiwi', 'melon']`              |
-| remove(x)        | Remove first matching value                          | fruits.remove("banana")`          | ['apple', 'kiwi', 'melon']`                        |
-| pop(i)           | Remove and return item at index *(last if no index)* | fruits.pop()`                     | Returns `'melon'`, list becomes `['apple', 'kiwi']`|
-|--->***clear()    | Remove all items                                     | fruits.clear()`                   | []`                                                |
-| index(x)         | Return index of first match                          | fruits.index("apple")`            | 0`                                                 |
-| count(x)         | Count how many times an item appears                 | nums.count(2)`                    | 3` if list is `[1,2,2,2,3]`                        |
-| sort()           | Sort in ascending order (changes list)               | nums.sort()`                      | [1,2,3,4]`                                         |
-| reverse()        | Reverse order (changes list)                         | nums.reverse()`                   | [4,3,2,1]`                                         |
-| copy()           | Make a shallow copy                                  | new_list = fruits.copy()`         |  Copy of list                                      |
+| .append(x)       | Add an item to the end                               | fruits.append("orange")`          | ['apple', 'banana', 'orange']`                     |
+| .insert(i, x)    | Insert at a specific index                           | fruits.insert(1, "grape")`        | ['apple', 'grape', 'banana', 'orange']`            |
+| .extend(iterable)| Add multiple items from another list/iterable        | fruits.extend(["kiwi", "melon"])` | ['apple', 'banana', 'kiwi', 'melon']`              |
+| .remove(x)       | Remove first matching value                          | fruits.remove("banana")`          | ['apple', 'kiwi', 'melon']`                        |
+| .pop(i)          | Remove and return item at index *(last if no index)* | fruits.pop()`                     | Returns `'melon'`, list becomes `['apple', 'kiwi']`|
+|--->***.clear()   | Remove all items                                     | fruits.clear()`                   | []`                                                |
+| .index(x)        | Return index of first match                          | fruits.index("apple")`            | 0`                                                 |
+| .count(x)        | Count how many times an item appears                 | nums.count(2)`                    | 3` if list is `[1,2,2,2,3]`                        |
+| .sort()          | Sort in ascending order (changes list)               | nums.sort()`                      | [1,2,3,4]`                                         |
+| .reverse()       | Reverse order (changes list)                         | nums.reverse()`                   | [4,3,2,1]`                                         |
+| .copy()          | Make a shallow copy                                  | new_list = fruits.copy()`         |  Copy of list                                      |
 \n \t\t\tExamples:
 
 """)
@@ -113,7 +113,7 @@ print("After clear fruits:", fruits)
 """
 NOTE:
 -------------------------------Strings and Lists ---------------------------------------------------
-1.  When we create a string and operate the string funtions on it , it just create a new of string but it donot 
+1.  When we create a string and operate the string funtions on it , it just create a new string , but it donot 
        change the original string .
 
                                 but 
@@ -147,19 +147,19 @@ tuple3= (1,3,5,7) #Tuple with more than 1 elements
 print("""
       
       ----------------Common Functions for Tuples-----------------------------------------
-| **Method / Function** | **Description**                                                            | **Example**              | **Output**           |
-| --------------------- | -------------------------------------------------------------------------- | ------------------------ | -------------------- |
-| `count(x)`            | Returns the number of times `x` appears in the tuple.                      | `(1, 2, 2, 3).count(2)`  | `2`                  |
-| `index(x)`            | Returns the index of the first occurrence of `x`.                          | `(10, 20, 30).index(20)` | `1`                  |
-| `len(tuple)`          | Returns the number of elements in the tuple.                               | `len((5, 6, 7))`         | `3`                  |
-| `max(tuple)`          | Returns the largest element in the tuple.                                  | `max((1, 5, 3))`         | `5`                  |
-| `min(tuple)`          | Returns the smallest element in the tuple.                                 | `min((1, 5, 3))`         | `1`                  |
-| `sum(tuple)`          | Returns the sum of all numeric elements in the tuple.                      | `sum((1, 2, 3))`         | `6`                  |
-| `tuple(iterable)`     | Converts an iterable (list, string, etc.) into a tuple.                    | `tuple([1, 2])`          | `(1, 2)`             |
-| `sorted(tuple)`       | Returns a sorted list of the tuple’s elements (does not modify the tuple). | `sorted((3, 1, 2))`      | `[1, 2, 3]`          |
-| `in` operator         | Checks if an element exists in the tuple.                                  | `5 in (1, 5, 7)`         | `True`               |
-| `+` (concatenation)   | Combines two tuples into one.                                              | `(1, 2) + (3, 4)`        | `(1, 2, 3, 4)`       |
-| `*` (repetition)      | Repeats the tuple a given number of times.                                 | `(1, 2) * 3`             | `(1, 2, 1, 2, 1, 2)` |
+| **Method / Function**| **Description**                                                            | **Example**              | **Output**           |
+| -------------------- | -------------------------------------------------------------------------- | ------------------------ | -------------------- |
+| .count(x)            | Returns the number of times `x` appears in the tuple.                      | (1, 2, 2, 3).count(2)    | 2                    |
+| .index(x)            | Returns the index of the first occurrence of `x`.                          | (10, 20, 30).index(20)   | 1                    |
+| .len(tuple)          | Returns the number of elements in the tuple.                               | len((5, 6, 7))           | 3                    |
+| .max(tuple)          | Returns the largest element in the tuple.                                  | max((1, 5, 3))           | 5                    |
+| .min(tuple)          | Returns the smallest element in the tuple.                                 | min((1, 5, 3))           | 1                    |
+| .sum(tuple)          | Returns the sum of all numeric elements in the tuple.                      | sum((1, 2, 3))           | 6                    |
+| .tuple(iterable)     | Converts an iterable (list, string, etc.) into a tuple.                    | tuple([1, 2])            | (1, 2)               |
+| .sorted(tuple)       | Returns a sorted list of the tuple’s elements (does not modify the tuple). | sorted((3, 1, 2))        | [1, 2, 3]            |
+| __ in operator       | Checks if an element exists in the tuple.                                  | 5 in (1, 5, 7)           | True                 |
+| + (concatenation)    | Combines two tuples into one.                                              | (1, 2) + (3, 4)          | (1, 2, 3, 4)         |
+| * (repetition)       | Repeats the tuple a given number of times.                                 | (1, 2) * 3               | (1, 2, 1, 2, 1, 2)   |
 
 
 
@@ -171,16 +171,16 @@ print("""
             --------------Difference between the Lists and Tuples --------------------------------
 | Feature              | **List**                                          | **Tuple**                                                          |
 | -------------------- | ------------------------------------------------- | ------------------------------------------------------------------ |
-| **Syntax**           | `[]` square brackets                              | `()` parentheses                                                   |
-| **Mutability**       | ✅ Mutable – can add, remove, or change elements  | ❌ Immutable – cannot change after creation                       |
-| **Order**            | ✅ Ordered                                        | ✅ Ordered                                                        |
-| **Duplicates**       | ✅ Allowed                                        | ✅ Allowed                                                        |
-| **Mixed Data Types** | ✅ Yes                                            | ✅ Yes                                                            |
-| **Methods**          | Many (e.g., `append`, `extend`, `remove`, `sort`) | Very few (`count`, `index`)                                        |
-| **Speed**            | Slower (more features, more memory)               | Faster (fixed size, lightweight)                                   |
-| **Memory Use**       | More memory                                       | Less memory                                                        |
-| **Hashable**         | ❌ Cannot be used as a dictionary key             | ✅ Can be used as a dictionary key (if elements are also immutable)|
-| **When to Use**      | When data may change                              | When data must remain constant                                     |
+| 1. Syntax              | `[]` square brackets                              | `()` parentheses                                                   |
+| 2. Mutability          | ✅ Mutable – can add, remove, or change elements  | ❌ Immutable – cannot change after creation                       |
+| 3. Order               | ✅ Ordered                                        | ✅ Ordered                                                        |
+| 4. Duplicates          | ✅ Allowed                                        | ✅ Allowed                                                        |
+| 5. Mixed Data Types    | ✅ Yes                                            | ✅ Yes                                                            |
+| 6. Methods             | Many (e.g., `append`, `extend`, `remove`, `sort`) | Very few (`count`, `index`)                                        |
+| 7. Speed               | Slower (more features, more memory)               | Faster (fixed size, lightweight)                                   |
+| 8. Memory Use          | More memory                                       | Less memory                                                        |
+| 9. Hashable            | ❌ Cannot be used as a dictionary key             | ✅ Can be used as a dictionary key (if elements are also immutable)|
+| 10.When to Use         | When data may change                              | When data must remain constant                                     |
 
 
 

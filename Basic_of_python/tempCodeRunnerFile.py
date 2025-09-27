@@ -1,0 +1,6 @@
+dictinory1.get("Age"),
+# dictinory1.keys(),
+# dictinory1.pop("Age"),
+# dictinory1.update({"Marks":"[23,54,12]"}),
+# dictinory1.setdefault(("name","John")),
+# dictinory1.values(),

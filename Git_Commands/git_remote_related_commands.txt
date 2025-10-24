@@ -1,0 +1,58 @@
+        Git Remote Commands Reference
+
+# Check which GitHub repo your files are connected to (fetch & push URLs)
+git remote -v
+# (a) If nothing shows, there is no GitHub repo linked for push/pull.
+
+# Show detailed info about the main branch and tracking info
+git remote show origin
+# (a) Displays remote URLs, tracked branches, upstream info, and local vs remote status.
+
+# Shows which remote branch tracks your local branch
+git remote -vv
+# (a) Useful to verify the upstream remote branch of your local branch.
+
+# Add a new remote repository with a name
+git remote add <name> <url>
+# (a) Example: git remote add origin https://github.com/username/repo.git
+# (b) Connects your local repo to a new GitHub repository.
+
+# Remove an existing remote
+git remote remove <name>
+# (a) Example: git remote remove origin
+# (b) Useful if you no longer want to link this remote.
+
+# Rename an existing remote
+git remote rename <old> <new>
+# (a) Example: git remote rename origin github
+# (b) Changes the name of a remote connection.
+
+# Change the URL of an existing remote
+git remote set-url <name> <newurl>
+# (a) Example: git remote set-url origin https://github.com/username/new-repo.git
+# (b) Useful if the repository URL changes or switches from HTTPS to SSH.
+
+# Remove references to deleted remote branches
+git remote prune <name>
+# (a) Example: git remote prune origin
+# (b) Cleans up stale references to branches that no longer exist on the remote.
+
+# List all remote names (simpler version)
+git remote
+# (a) Example output: origin, backup
+# (b) Useful to quickly see what remotes exist in your repo.
+
+# Fetch branches from the remote without merging
+git fetch <remote>
+# (a) Example: git fetch origin
+# (b) Updates your local copy of remote branches without affecting working files.
+
+# Push local branch to a remote
+git push <remote> <branch>
+# (a) Example: git push origin main
+# (b) Sends your local commits to the remote repository.
+
+# Pull changes from a remote branch to your local branch
+git pull <remote> <branch>
+# (a) Example: git pull origin main
+# (b) Updates your local branch with changes from the remote.
